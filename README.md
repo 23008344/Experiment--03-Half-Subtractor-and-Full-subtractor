@@ -12,7 +12,8 @@ Subtractor circuits take two binary numbers as input and subtract one binary num
 ## Half Subtractor Full Subtractor
 ## Half Subtractor
 The half-subtractor is a combinational circuit which is used to perform subtraction of two bits. It has two inputs, X (minuend) and Y (subtrahend) and two outputs D (difference) and B (borrow). To perform x - y, we have to check the relative magnitudes of x and y. If x ;;, y, we have three possibilities: 0 - 0 = 0, 1 - 0 = 1, and 1 - I = 0. The result is called the difference bit. If x < y, we have 0 - I, and it is necessary to borrow a 1 from the next higher stage. The I borrowed from the next higher stage adds 2 to the minuend bit, just as in the decimal system a borrow adds 10 to a minuend digit. With the minuend equal to 2, the difference becomes 2 - I = 1. The half-subtractor needs two outputs. One output generates the difference and will be designated by the symbol D. The second output, designated B for borrow, generates the binary signal that informs the next stage that a I has been borrowed.
-![half-subtractor9]![Alt text](image-9.png)
+![half-subtractor9]!![image](https://github.com/23008344/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/145742655/925408e0-7a14-4e1c-ba17-5b90580e8d6e)
+
 
 
 Sum = X'Y+XY' = X ⊕ Y
@@ -20,8 +21,9 @@ Carry=X'Y
 
 ## Full Subtractor
 A full subtractor is a combinational circuit that performs subtraction involving three bits, namely minuend, subtrahend, and borrow-in . It accepts three inputs: minuend, subtrahend and a borrow bit and it produces two outputs: difference and borrow. 
-![full-subtractor6]!
-![Alt text](image-10.png)
+![full-subtractor6]!![image](https://github.com/23008344/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/145742655/9dd6f352-198f-4c17-84dc-56802c81d04a)
+
+
 
 Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 
@@ -75,12 +77,14 @@ RegisterNumber:  23008344
 
 ## Half Subractor:
 
-![Alt text](image-1.png)
+![image](https://github.com/23008344/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/145742655/a979b968-00b1-4c87-99a0-5000b4a48812)
+
 
 
 ## Full Subractor:
 
-![Alt text](image-2.png)
+![image](https://github.com/23008344/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/145742655/5ee7f32e-8a8f-46c6-b157-068b2cceb40b)
+
 
 
 
@@ -88,32 +92,37 @@ RegisterNumber:  23008344
 
 ## HALF SUBTRACTOR 
 
-![Alt text](image-3.png)
+![image](https://github.com/23008344/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/145742655/33732ac1-be4c-4ca3-85da-ab6a70ace855)
+
 
 ## FULL SUBTRACTOR
 
-![Alt text](image-4.png)
+![image](https://github.com/23008344/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/145742655/303150de-c440-4e10-b352-2d687f25a995)
 
 
 ##  RTL realization
 
 ## HALF SUBTRACTOR 
 
-![Alt text](image-5.png)
+![image](https://github.com/23008344/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/145742655/7b72d9a6-53d6-4b9d-ba73-13e12c83e580)
+
 
 ## FULL SUBTRACTOR
 
-![Alt text](image-6.png)
+![image](https://github.com/23008344/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/145742655/e9877e19-28d3-42cc-8e6e-344f70ad2746)
+
 
 ## Timing diagram 
 
 ## HALF SUBTRACTOR 
 
-![Alt text](image-7.png)
+![image](https://github.com/23008344/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/145742655/f4708437-2ea7-45a5-aa5a-fba154ff2a25)
+
 
 ## FULL SUBTRACTOR
 
-![Alt text](image-8.png)
+![image](https://github.com/23008344/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/145742655/1a31ac8e-f843-4a2e-aafa-510f7792da47)
+
 
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
